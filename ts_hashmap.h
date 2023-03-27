@@ -1,5 +1,7 @@
 #include <pthread.h>
 
+extern pthread_mutex_t *locks; 
+
 // A hashmap entry stores the key, value
 // and a pointer to the next entry
 typedef struct ts_entry_t {
